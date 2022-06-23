@@ -1,0 +1,16 @@
+package practice.task6;
+
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+public class SolutionTest {
+
+    @Test
+    public void squareSum() {
+        assertEquals(9, Solution.squareSum(new int[] {1,2,2}));
+        assertEquals(5, Solution.squareSum(new int[] {1,2}));
+        assertEquals(50, Solution.squareSum(new int[] {5,-3,4}));
+        assertEquals(0, Solution.squareSum(new int[] {}));
+    }
+}
